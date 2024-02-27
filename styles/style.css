@@ -6,6 +6,16 @@
     margin: 0;
     font-family: "Work Sans", sans-serif;
 }
+.btn-primary {
+    border: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 20px 24px;
+    background-color: #ff900e;
+    cursor: pointer;
+}
 
 /* header styles */
 header {
@@ -36,4 +46,45 @@ nav ul {
   nav a {
     color: #424242;
     text-decoration: none;
+  }
+
+  /* banner styles */
+  .banner-text {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .banner-description {
+    color: #727272;
+    line-height: 26px;
+  }
+  .banner-area img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+  /* responsive media query styles */
+  @media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+  }
+
+  /* tablet or medium devices */
+  @media screen and (min-width: 577px) and (max-width: 960px) {
+    header {
+        padding: 50px;
+    }
+    nav {
+        flex-direction: column;
+    }
   }
