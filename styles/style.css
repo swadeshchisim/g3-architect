@@ -103,6 +103,14 @@ nav ul {
     font-weight: 700;
   }
 
+  /* Facts card styles */
+  .facts > .section-title {
+    margin-bottom: 24px;
+  }
+.fact-card-container .card {
+  background-repeat: 8px;
+  border: 1px solid #ff900e;
+}
 
   /* responsive media query styles */
   @media screen and (max-width: 576px) {
