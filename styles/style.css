@@ -70,6 +70,15 @@ nav ul {
     margin-top: 50px;
   }
 
+  /* main section styles */
+
+  main {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  
+
 
   /* responsive media query styles */
   @media screen and (max-width: 576px) {
