@@ -132,6 +132,7 @@ nav ul {
   margin-bottom: 10px;
 }
 
+
   /* responsive media query styles */
   @media screen and (max-width: 576px) {
     header {
