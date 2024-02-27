@@ -104,12 +104,34 @@ nav ul {
   }
 
   /* Facts card styles */
+  .facts-card-container {
+    display: flex;
+    justify-content: space-around;
+  }
   .facts > .section-title {
     margin-bottom: 24px;
   }
-.fact-card-container .card {
-  background-repeat: 8px;
+  .facts > p {
+    margin-bottom: 100px;
+  }
+.facts-card-container .card {
   border: 1px solid #ff900e;
+  text-align: center;
+  border-radius: 8px;
+  padding: 46px 36px 60px;
+}
+.facts-card-container .card-title {
+  color: #727272;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.facts-card-container .card-stats {
+  color: #424242;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.card > img {
+  margin-bottom: 10px;
 }
 
   /* responsive media query styles */
