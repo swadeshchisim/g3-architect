@@ -35,7 +35,10 @@
     border-radius: 8px;
     border: none;
 }
-
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 /* Navbar styles */
 .navbar {
     justify-content: space-between;
@@ -74,6 +77,15 @@
 }
 .banner img {
     max-width: 100%;
+}
+
+/* Team styles */
+.teams {
+    align-items: center;
+}
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /* responsive media query */
