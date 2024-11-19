@@ -31,7 +31,10 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.brand {
+    font-size: 3rem;
+    font-weight: 700;
+}
 .nav-item {
     list-style: none;
     margin-right: 30px;
