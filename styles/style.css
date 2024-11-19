@@ -72,3 +72,10 @@
     font-size: 700;
     font-size: 4rem;
 }
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
