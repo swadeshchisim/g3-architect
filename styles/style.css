@@ -136,7 +136,7 @@ main > section {
 }
 /* Sponsor Styles Here */
 .sponsor-info {
-    min-width: 540px;
+    max-width: 540px;
     margin: 50px auto;
     text-align: center;
 }
@@ -184,5 +184,9 @@ main > section {
     .sponsor-companies, .facts-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
+    }
+    .sponsor-companies, .facts-container {
+        justify-items: center;
+
     }
 }
