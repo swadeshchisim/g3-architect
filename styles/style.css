@@ -190,6 +190,18 @@ main > section {
     filter: grayscale(100%);
 }
 
+/* Footer Styles */
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #FFF4E7;
+    margin-top: 130px;
+}
+footer p {
+    text-align: center;
+    padding: 38px 0;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, .teams, .features {
